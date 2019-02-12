@@ -1,6 +1,6 @@
+import json
 from flask import Flask, Blueprint
 from flask_restplus import Api, Resource
-import json
 
 app = Flask(__name__)
 blue = Blueprint('api', __name__, url_prefix='/cisco/api')
@@ -14,7 +14,9 @@ with open('advisory.json') as json_file:
 
 @api.route('/advisory')
 class FromIosVersion(Resource):
+    """Sends the response to the /advisory"""
     def get(self):
+        """Accepting get & returning resonse form json & 200 code"""
         return response, 200
 
 
