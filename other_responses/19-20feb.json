@@ -1,0 +1,451 @@
+{
+    "advisories": [
+        {
+            "advisoryId": "cisco-sa-20190206-webex-injection",
+            "advisoryTitle": "Cisco Webex Meetings Online Content Injection Vulnerability",
+            "bugIDs": [
+                "CSCvn46629"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2019-1680"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190206-webex-injection/cvrf/cisco-sa-20190206-webex-injection_cvrf.xml",
+            "cvssBaseScore": "4.3",
+            "cwe": [
+                "CWE-74"
+            ],
+            "firstPublished": "2019-02-06T16:00:00-0800",
+            "lastUpdated": "2019-02-20T23:23:32-0800",
+            "productNames": [
+                "Cisco WebEx Meeting Center "
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190206-webex-injection",
+            "sir": "Medium",
+            "summary": "<p>A vulnerability in Cisco Webex Meetings Online could allow an unauthenticated, remote attacker to inject arbitrary text into a user&rsquo;s browser.</p>\n<p>The vulnerability is due to improper validation of input. An attacker could exploit this vulnerability by convincing a targeted user to view a malicious URL. A successful exploit could allow the attacker to inject arbitrary text into the user&rsquo;s browser. The attacker could use the content injection to conduct spoofing attacks.</p>\n<p>Cisco has released software updates to address this vulnerability. There are no workarounds that address this vulnerability.</p>\n<p>This advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190206-webex-injection\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190206-webex-injection</a></p>"
+        },
+        {
+            "advisoryId": "cisco-sa-20190215-runc",
+            "advisoryTitle": "Container Privilege Escalation Vulnerability Affecting Cisco Products: February 2019",
+            "bugIDs": [
+                "NA"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2019-5736"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190215-runc/cvrf/cisco-sa-20190215-runc_cvrf.xml",
+            "cvssBaseScore": "NA",
+            "cwe": [
+                "CWE-264"
+            ],
+            "firstPublished": "2019-02-15T17:00:00-0800",
+            "lastUpdated": "2019-02-20T23:00:04-0800",
+            "productNames": [
+                "NA"
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190215-runc",
+            "sir": "High",
+            "summary": "<p>A vulnerability in the Open Container Initiative <em>runc</em> CLI tool used by multiple products could allow an unauthenticated, remote attacker to escalate privileges on a targeted system.<br />\n<br />\nThe vulnerability exists because the affected software improperly handles file descriptors related to <em>/proc/self/exe</em>. An attacker could exploit the vulnerability either by persuading a user to create a new container using an attacker-controlled image or by using the <strong>docker exec</strong> command to attach into an existing container that the attacker already has <em>write </em>access to. A successful exploit could allow the attacker to overwrite the host's <em>runc</em> binary file with a malicious file, escape the container, and execute arbitrary commands with <em>root</em> privileges on the host system.</p>\n<p>This advisory will be updated as additional information becomes available.</p>\n<p>This advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190215-runc\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190215-runc</a></p>"
+        },
+        {
+            "advisoryId": "cisco-sa-20190220-prime-validation",
+            "advisoryTitle": "Cisco Prime Infrastructure Certificate Validation Vulnerability",
+            "bugIDs": [
+                "CSCvj87015"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2019-1659"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190220-prime-validation/cvrf/cisco-sa-20190220-prime-validation_cvrf.xml",
+            "cvssBaseScore": "7.4",
+            "cwe": [
+                "CWE-295"
+            ],
+            "firstPublished": "2019-02-20T16:00:00-0800",
+            "lastUpdated": "2019-02-20T16:00:00-0800",
+            "productNames": [
+                "Cisco Prime Infrastructure "
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-prime-validation",
+            "sir": "High",
+            "summary": "<p>A vulnerability in the Identity Services Engine (ISE) integration feature of Cisco Prime Infrastructure (PI) could allow an unauthenticated, remote attacker to perform a man-in-the-middle attack against the Secure Sockets Layer (SSL) tunnel established between ISE and PI.</p>\n<p>The vulnerability is due to improper validation of the server SSL certificate when establishing the SSL tunnel with ISE. An attacker could exploit this vulnerability by using a crafted SSL certificate and could then intercept communications between the ISE and PI. A successful exploit could allow the attacker to view and alter potentially sensitive information that the ISE maintains about clients that are connected to the network.</p>\n<p>Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.</p>\n<p>This advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-prime-validation\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-prime-validation</a></p>"
+        },
+        {
+            "advisoryId": "cisco-sa-20190220-pca-access",
+            "advisoryTitle": "Cisco Prime Collaboration Assurance Software Unauthenticated Access Vulnerability",
+            "bugIDs": [
+                "CSCvj07241"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2019-1662"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190220-pca-access/cvrf/cisco-sa-20190220-pca-access_cvrf.xml",
+            "cvssBaseScore": "8.2",
+            "cwe": [
+                "CWE-287"
+            ],
+            "firstPublished": "2019-02-20T16:00:00-0800",
+            "lastUpdated": "2019-02-20T16:00:00-0800",
+            "productNames": [
+                "Cisco Prime Collaboration Assurance "
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-pca-access",
+            "sir": "High",
+            "summary": "<p>A vulnerability in the Quality of Voice Reporting (QOVR) service of Cisco Prime Collaboration Assurance (PCA) Software could allow an unauthenticated, remote attacker to access the system as a valid user.</p>\n<p>The vulnerability is due to insufficient authentication controls. An attacker could exploit this vulnerability by connecting to the QOVR service with a valid username. A successful exploit could allow the attacker to perform actions with the privileges of the user that is used for access.</p>\n<p>Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.</p>\n<p>This advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-pca-access\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-pca-access</a></p>"
+        },
+        {
+            "advisoryId": "cisco-sa-20190220-chn-root-access",
+            "advisoryTitle": "Cisco HyperFlex Software Unauthenticated Root Access Vulnerability",
+            "bugIDs": [
+                "CSCvk31047"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2019-1664"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190220-chn-root-access/cvrf/cisco-sa-20190220-chn-root-access_cvrf.xml",
+            "cvssBaseScore": "8.1",
+            "cwe": [
+                "CWE-284"
+            ],
+            "firstPublished": "2019-02-20T16:00:00-0800",
+            "lastUpdated": "2019-02-20T16:00:00-0800",
+            "productNames": [
+                "Cisco HyperFlex HX-Series "
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-chn-root-access",
+            "sir": "High",
+            "summary": "<p>A vulnerability in the <em>hxterm </em>service of Cisco HyperFlex Software could allow an unauthenticated, local attacker to gain <em>root </em>access to all nodes in the cluster.</p>\n<p>The vulnerability is due to insufficient authentication controls. An attacker could exploit this vulnerability by connecting to the <em>hxterm </em>service as a non-privileged, local user. A successful exploit could allow the attacker to gain <em>root </em>access to all member nodes of the HyperFlex cluster.</p>\n<p>Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.</p>\n<p>This advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-chn-root-access\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-chn-root-access</a></p>"
+        },
+        {
+            "advisoryId": "cisco-sa-20190220-iot-fnd-xml",
+            "advisoryTitle": "Cisco IoT Field Network Director XML External Entity Vulnerability",
+            "bugIDs": [
+                "CSCvm85075"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2019-1698"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190220-iot-fnd-xml/cvrf/cisco-sa-20190220-iot-fnd-xml_cvrf.xml",
+            "cvssBaseScore": "4.9",
+            "cwe": [
+                "CWE-611"
+            ],
+            "firstPublished": "2019-02-20T16:00:00-0800",
+            "lastUpdated": "2019-02-20T16:00:00-0800",
+            "productNames": [
+                "Cisco IoT Field Network Director (IoT-FND) "
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-iot-fnd-xml",
+            "sir": "Medium",
+            "summary": "<p><p>A vulnerability in the web-based user interface of Cisco Internet of Things Field Network Director (IoT-FND) Software could allow an authenticated, remote attacker to gain read access to information that is stored on an affected system.</p>\n<p>The vulnerability is due to improper handling of XML External Entity (XXE) entries when parsing certain XML files. An attacker could exploit this vulnerability by importing a crafted XML file with malicious entries, which could allow the attacker to read files within the affected application.</p></p>\n<p>There are no workarounds that address this vulnerability.<br />\n<br />\nThis advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-iot-fnd-xml\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-iot-fnd-xml</a></p>"
+        },
+        {
+            "advisoryId": "cisco-sa-20190220-hyper-write",
+            "advisoryTitle": "Cisco HyperFlex Arbitrary Statistics Write Vulnerability",
+            "bugIDs": [
+                "CSCvj95590"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2019-1667"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190220-hyper-write/cvrf/cisco-sa-20190220-hyper-write_cvrf.xml",
+            "cvssBaseScore": "4.0",
+            "cwe": [
+                "CWE-345"
+            ],
+            "firstPublished": "2019-02-20T16:00:00-0800",
+            "lastUpdated": "2019-02-20T16:00:00-0800",
+            "productNames": [
+                "Cisco HyperFlex HX-Series "
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-hyper-write",
+            "sir": "Medium",
+            "summary": "<p><p>A vulnerability in the <em>Graphite </em>interface of Cisco HyperFlex software could allow an authenticated, local attacker to write arbitrary data to the <em>Graphite </em>interface.</p>\n<p>The vulnerability is due to insufficient authorization controls. An attacker could exploit this vulnerability by connecting to the <em>Graphite </em>service and sending arbitrary data. A successful exploit could allow the attacker to write arbitrary data to <em>Graphite</em>,<em> </em>which could result in invalid statistics being presented in the interface.</p></p>\n<p>There are no workarounds that address this vulnerability.<br />\n<br />\nThis advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-hyper-write\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-hyper-write</a></p>"
+        },
+        {
+            "advisoryId": "cisco-sa-20190220-hyper-retrieve",
+            "advisoryTitle": "Cisco HyperFlex Unauthenticated Statistics Retrieval Vulnerability",
+            "bugIDs": [
+                "CSCvj95580"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2019-1666"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190220-hyper-retrieve/cvrf/cisco-sa-20190220-hyper-retrieve_cvrf.xml",
+            "cvssBaseScore": "5.3",
+            "cwe": [
+                "CWE-284"
+            ],
+            "firstPublished": "2019-02-20T16:00:00-0800",
+            "lastUpdated": "2019-02-20T16:00:00-0800",
+            "productNames": [
+                "Cisco HyperFlex HX-Series "
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-hyper-retrieve",
+            "sir": "Medium",
+            "summary": "<p>A vulnerability in the <em>Graphite </em>service of Cisco HyperFlex software could allow an unauthenticated, remote attacker to retrieve data from the <em>Graphite </em>service.</p>\n<p>The vulnerability is due to insufficient authentication controls. An attacker could exploit this vulnerability by sending crafted requests to the <em>Graphite </em>service. A successful exploit could allow the attacker to retrieve any statistics from the <em>Graphite </em>service.</p>\n<p>There are no workarounds that address this vulnerability.</p>\n<p>This advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-hyper-retrieve\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-hyper-retrieve</a></p>"
+        },
+        {
+            "advisoryId": "cisco-sa-20190220-firpwr-dos",
+            "advisoryTitle": "Cisco Firepower 9000 Series Firepower 2-Port 100G Double-Width Network Module Queue Wedge Denial of Service Vulnerability",
+            "bugIDs": [
+                "CSCvn57812"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2019-1700"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190220-firpwr-dos/cvrf/cisco-sa-20190220-firpwr-dos_cvrf.xml",
+            "cvssBaseScore": "6.1",
+            "cwe": [
+                "CWE-399"
+            ],
+            "firstPublished": "2019-02-20T16:00:00-0800",
+            "lastUpdated": "2019-02-20T16:00:00-0800",
+            "productNames": [
+                "Cisco Firepower Extensible Operating System (FXOS) "
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-firpwr-dos",
+            "sir": "Medium",
+            "summary": "<p>A vulnerability in field-programmable gate array (FPGA) ingress buffer management for the Cisco Firepower 9000 Series with the Cisco Firepower 2-port 100G double-width network module (PID: FPR9K-DNM-2X100G) could allow an unauthenticated, adjacent attacker to cause a denial of service (DoS) condition. Manual intervention may be required before a device will resume normal operations.</p>\n<p>The vulnerability is due to a logic error in the FPGA related to the processing of different types of input packets. An attacker could exploit this vulnerability by being on the adjacent subnet and sending a crafted sequence of input packets to a specific interface on an affected device. A successful exploit could allow the attacker to cause a queue wedge condition on the interface. When a wedge occurs, the affected device will stop processing any additional packets that are received on the wedged interface.</p>\n<p>There are no workarounds that address this vulnerability.</p>\n<p>This advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-firpwr-dos\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-firpwr-dos</a></p>"
+        },
+        {
+            "advisoryId": "cisco-sa-20190220-fpwr-ssltls-dos",
+            "advisoryTitle": "Cisco Firepower Threat Defense Software SSL or TLS Denial of Service Vulnerability",
+            "bugIDs": [
+                "CSCvj97647"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2019-1691"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190220-fpwr-ssltls-dos/cvrf/cisco-sa-20190220-fpwr-ssltls-dos_cvrf.xml",
+            "cvssBaseScore": "5.8",
+            "cwe": [
+                "CWE-20"
+            ],
+            "firstPublished": "2019-02-20T16:00:00-0800",
+            "lastUpdated": "2019-02-20T16:00:00-0800",
+            "productNames": [
+                "Cisco Firepower Threat Defense Software "
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-fpwr-ssltls-dos",
+            "sir": "Medium",
+            "summary": "<p><p>A vulnerability in the detection engine of Cisco Firepower Threat Defense Software could allow an unauthenticated, remote attacker to cause the unexpected restart of the SNORT detection engine, resulting in a denial of service (DoS) condition.</p>\n<p>The vulnerability is due to the incomplete error handling of the SSL or TLS packet header during the connection establishment. An attacker could exploit this vulnerability by sending a crafted SSL or TLS packet during the connection handshake. An exploit could allow the attacker to cause the SNORT detection engine to unexpectedly restart, resulting in a partial DoS condition while the detection engine restarts. </p></p>\n<p>There are no workarounds that address this vulnerability.\n</p>\n<p>\nThis advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-fpwr-ssltls-dos\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-fpwr-ssltls-dos</a></p>"
+        },
+        {
+            "advisoryId": "cisco-sa-20190220-ipphone-certs",
+            "advisoryTitle": "Cisco SPA112, SPA525, and SPA5x5 Series IP Phones Certificate Validation Vulnerability",
+            "bugIDs": [
+                "CSCvm49157",
+                "CSCvn17125",
+                "CSCvn17128"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2019-1683"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190220-ipphone-certs/cvrf/cisco-sa-20190220-ipphone-certs_cvrf.xml",
+            "cvssBaseScore": "6.5",
+            "cwe": [
+                "CWE-295"
+            ],
+            "firstPublished": "2019-02-20T16:00:00-0800",
+            "lastUpdated": "2019-02-20T16:00:00-0800",
+            "productNames": [
+                "Cisco Small Business SPA500 Series IP Phones ",
+                "Cisco Small Business Voice Gateways and ATAs "
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-ipphone-certs",
+            "sir": "Medium",
+            "summary": "<p><p>A vulnerability in the certificate handling component of the Cisco SPA112, SPA525, and SPA5X5 Series IP Phones could allow an unauthenticated, remote attacker to listen to or control some aspects of a Transport Level Security (TLS)-encrypted Session Initiation Protocol (SIP) conversation.</p>\n<p>The vulnerability is due to the improper validation of server certificates. An attacker could exploit this vulnerability by crafting a malicious server certificate to present to the client. An exploit could allow an attacker to eavesdrop on TLS-encrypted traffic and potentially route or redirect calls initiated by an affected device.</p></p>\n<p>There are no workarounds that address this vulnerability.<br />\n<br />\nThis advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-ipphone-certs\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-ipphone-certs</a></p>"
+        },
+        {
+            "advisoryId": "cisco-sa-20190220-ncs",
+            "advisoryTitle": "Cisco Network Convergence System 1000 Series TFTP Directory Traversal Vulnerability",
+            "bugIDs": [
+                "CSCvk32415"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2019-1681"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190220-ncs/cvrf/cisco-sa-20190220-ncs_cvrf.xml",
+            "cvssBaseScore": "7.5",
+            "cwe": [
+                "CWE-200"
+            ],
+            "firstPublished": "2019-02-20T16:00:00-0800",
+            "lastUpdated": "2019-02-20T16:00:00-0800",
+            "productNames": [
+                "Cisco Network Convergence System 1000 Series "
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-ncs",
+            "sir": "High",
+            "summary": "<p><p>A vulnerability in the TFTP service of Cisco Network Convergence System 1000 Series software could allow an unauthenticated, remote attacker to retrieve arbitrary files from the targeted device, possibly resulting in information disclosure.</p>\n<p>The vulnerability is due to improper validation of user-supplied input within TFTP requests processed by the affected software. An attacker could exploit this vulnerability by using directory traversal techniques in malicious requests sent to the TFTP service on a targeted device. An exploit could allow the attacker to retrieve arbitrary files from the targeted device, resulting in the disclosure of sensitive information.</p></p>\n<p>Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.<br />\n<br />\nThis advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-ncs\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-ncs</a></p>"
+        },
+        {
+            "advisoryId": "cisco-sa-20190220-hyperflex-injection",
+            "advisoryTitle": "Cisco HyperFlex Software Command Injection Vulnerability",
+            "bugIDs": [
+                "CSCvj95606"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2018-15380"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190220-hyperflex-injection/cvrf/cisco-sa-20190220-hyperflex-injection_cvrf.xml",
+            "cvssBaseScore": "8.8",
+            "cwe": [
+                "CWE-78"
+            ],
+            "firstPublished": "2019-02-20T16:00:00-0800",
+            "lastUpdated": "2019-02-20T16:00:00-0800",
+            "productNames": [
+                "Cisco HyperFlex HX-Series "
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-hyperflex-injection",
+            "sir": "High",
+            "summary": "<p>A vulnerability in the cluster service manager of Cisco HyperFlex Software could allow an unauthenticated, adjacent attacker to execute commands as the <em>root</em> user.</p>\n<p>The vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by connecting to the cluster service manager and injecting commands into the bound process. A successful exploit could allow the attacker to run commands on the affected host as the <em>root</em> user.</p>\n<p>Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.</p>\n<p>This advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-hyperflex-injection\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-hyperflex-injection</a></p>"
+        },
+        {
+            "advisoryId": "cisco-sa-20190220-hyper-xss",
+            "advisoryTitle": "Cisco Hyperflex Stored Cross-Site Scripting Vulnerability",
+            "bugIDs": [
+                "CSCvk59165"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2019-1665"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190220-hyper-xss/cvrf/cisco-sa-20190220-hyper-xss_cvrf.xml",
+            "cvssBaseScore": "4.7",
+            "cwe": [
+                "CWE-79"
+            ],
+            "firstPublished": "2019-02-20T16:00:00-0800",
+            "lastUpdated": "2019-02-20T16:00:00-0800",
+            "productNames": [
+                "Cisco HyperFlex HX-Series "
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-hyper-xss",
+            "sir": "Medium",
+            "summary": "<p><p>A vulnerability in the web-based management interface of Cisco HyperFlex software could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the web-based management interface of an affected system.</p>\n<p>The vulnerability is due to insufficient validation of user-supplied input by the web-based management interface of an affected system. An attacker could exploit this vulnerability by persuading a user of the interface to click a maliciously crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.</p></p>\n<p>There are no workarounds that address this vulnerability.<br />\n<br />\nThis advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-hyper-xss\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-hyper-xss</a></p>"
+        },
+        {
+            "advisoryId": "cisco-sa-20190220-cuc-rxss",
+            "advisoryTitle": "Cisco Unity Connection Reflected Cross-Site Scripting Vulnerability",
+            "bugIDs": [
+                "CSCvk29994"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2019-1685"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190220-cuc-rxss/cvrf/cisco-sa-20190220-cuc-rxss_cvrf.xml",
+            "cvssBaseScore": "6.1",
+            "cwe": [
+                "CWE-79"
+            ],
+            "firstPublished": "2019-02-20T16:00:00-0800",
+            "lastUpdated": "2019-02-20T16:00:00-0800",
+            "productNames": [
+                "Cisco Unity Connection "
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-cuc-rxss",
+            "sir": "Medium",
+            "summary": "<p>A vulnerability in the Security Assertion Markup Language (SAML) single sign-on (SSO) interface of Cisco Unity Connection could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface of an affected device.</p>\n<p>The vulnerability is due to insufficient validation of user-supplied input by the interface of an affected device. An attacker could exploit this vulnerability by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.</p>\n<p>There are no workarounds that address this vulnerability.</p>\n<p>This advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-cuc-rxss\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-cuc-rxss</a></p>"
+        },
+        {
+            "advisoryId": "cisco-sa-20190220-webx-ios-file",
+            "advisoryTitle": "Cisco Webex Teams for iOS Arbitrary File Upload Vulnerability",
+            "bugIDs": [
+                "CSCvn16403"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2019-1689"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190220-webx-ios-file/cvrf/cisco-sa-20190220-webx-ios-file_cvrf.xml",
+            "cvssBaseScore": "7.3",
+            "cwe": [
+                "CWE-20"
+            ],
+            "firstPublished": "2019-02-20T16:00:00-0800",
+            "lastUpdated": "2019-02-20T16:00:00-0800",
+            "productNames": [
+                "Cisco Webex Teams "
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-webx-ios-file",
+            "sir": "Medium",
+            "summary": "<p><p>A vulnerability in the client application for iOS of Cisco Webex Teams could allow an authenticated, remote attacker to upload arbitrary files within the scope of the iOS application.</p>\n<p>The vulnerability is due to improper input validation in the client application. An attacker could exploit this vulnerability by sending a malicious file to a targeted user and persuading the user to manually open it. An exploit could allow the attacker to overwrite sensitive application files and eventually cause a denial of service (DoS) condition by foreclosing future access to the system to the targeted user.</p></p>\n<p>There are no workarounds that address this vulnerability.<br />\n<br />\nThis advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-webx-ios-file\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-webx-ios-file</a></p>"
+        },
+        {
+            "advisoryId": "cisco-sa-20190220-cdp-lldp-dos",
+            "advisoryTitle": "Cisco IP Phone 7800 and 8800 Series Cisco Discovery Protocol and Link Layer Discovery Protocol Denial of Service Vulnerability",
+            "bugIDs": [
+                "CSCvn47250"
+            ],
+            "ipsSignatures": [
+                "NA"
+            ],
+            "cves": [
+                "CVE-2019-1684"
+            ],
+            "cvrfUrl": "https://tools.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190220-cdp-lldp-dos/cvrf/cisco-sa-20190220-cdp-lldp-dos_cvrf.xml",
+            "cvssBaseScore": "6.5",
+            "cwe": [
+                "CWE-399"
+            ],
+            "firstPublished": "2019-02-20T16:00:00-0800",
+            "lastUpdated": "2019-02-20T16:00:00-0800",
+            "productNames": [
+                "Cisco IP Phone 8800 Series Software ",
+                "Cisco IP Phone 7800 Series ",
+                "Cisco IP Phone 8800 Series with Multiplatform Firmware "
+            ],
+            "publicationUrl": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-cdp-lldp-dos",
+            "sir": "Medium",
+            "summary": "<p>A vulnerability in the Cisco Discovery Protocol or Link Layer Discovery Protocol (LLDP) implementation for the Cisco IP Phone 7800 and 8800 Series could allow an unauthenticated, adjacent attacker to cause an affected phone to reload unexpectedly, resulting in a temporary denial of service (DoS) condition.</p>\n<p>The vulnerability is due to missing length validation of certain Cisco Discovery Protocol or LLDP packet header fields. An attacker could exploit this vulnerability by sending a malicious Cisco Discovery Protocol or LLDP packet to the targeted phone. A successful exploit could allow the attacker to cause the affected phone to reload unexpectedly, resulting in a temporary DoS condition.</p>\n<p>There are no workarounds that address this vulnerability.</p>\n<p>This advisory is available at the following link:<br />\n<a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-cdp-lldp-dos\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20190220-cdp-lldp-dos</a></p>"
+        }
+    ]
+}
